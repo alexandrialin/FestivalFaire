@@ -34,43 +34,7 @@ public class AnimationScript : MonoBehaviour
     {
         if (controller.isGrounded)
         {
-            /*
-            if (Input.GetKey(KeyCode.Space))
-            {
-                foreach (Animator a in CharacterCustomization.GetAnimators())
-                    a.SetInteger("condition", 0);
-
-
-                if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
-                {
-                    moveDir = new Vector3(-3, 5, 0);
-                }
-                if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
-                {
-                    moveDir = new Vector3(3, 5, 0);
-                }
-                if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
-                {
-                    moveDir = new Vector3(0, 5, 3);
-                }
-                if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
-                {
-                    moveDir = new Vector3(0, 5, -3);
-                }
-                else
-                {
-                    // moveDir = new Vector3(0, 5, 0);
-                }
-
-
-
-            }
-            
-            else if (Input.GetKeyUp(KeyCode.Space))
-            {
-                moveDir = new Vector3(0, -5, 0);
-            }
-            */
+  
             if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
             {
                 foreach (Animator a in CharacterCustomization.GetAnimators())
